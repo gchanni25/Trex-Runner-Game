@@ -32,7 +32,7 @@ factory(root.p5);
  */
 
 // =============================================================================
-//                         initialization
+//                         Initialization
 // =============================================================================
 
 var DEFAULT_FRAME_RATE = 30;
@@ -75,7 +75,7 @@ p5.prototype.registerMethod('init', function p5PlayInit() {
 
 // This provides a way for us to lazily define properties that
 // are global to p5 instances.
-//
+// 
 // Note that this isn't just an optimization: p5 currently provides no
 // way for add-ons to be notified when new p5 instances are created, so
 // lazily creating these properties is the *only* mechanism available
